@@ -5,7 +5,8 @@
 }
 .header {
     background-color: #1f2937;
-    height: 350px;
+    /* height: 350px; */
+    padding-bottom: 60px;
 }
 
 li {
@@ -75,4 +76,44 @@ button {
 }
 .header-c div {
     background-color: inherit;
+}
+
+/* 
+styling the second section
+*/
+.section-b{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    gap: 35px;
+}
+.text {
+    font-weight: 1000;
+    font-size: 36px;
+    text-align: center;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+
+}
+
+.border {
+    border: 3px solid blue; 
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.card div:nth-child(2) {
+    width: fit-content;
+    max-width: 150px;
+    text-align: center;
 }
